@@ -6,4 +6,6 @@ Looking up your CSE 15L account:
 Downloading Visual Studio Code:
 - Click on this link https://code.visualstudio.com/
 - Download for either Mac or Windows, depending on your system
-- 
+- Once it is installed, you will see a screen that looks like this
+![Image](week1labss1.png)
+
