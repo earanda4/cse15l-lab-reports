@@ -20,7 +20,7 @@ Remotely Connecting:
   - Click the + icon in the terminal window 
   - The terminal will now be a Git Bash terminal and you should be able to toggle between different terminals as shown:
  ![Image](week1labss3.png)
-- Once you are in a bash terminal, type ssh cs15lsp23jj@ieng6.ucsd.edu, except the 'jj' will be replaced with the two letters
+- Once you are in a bash terminal, type backticks(ssh) cs15lsp23jj@ieng6.ucsd.edu, except the 'jj' will be replaced with the two letters
  in your course-specific account
 - Enter yes to the prompt and then enter your password you set with your course-specific account
 - Now your terminal is connected to a computer in the CSE basement
