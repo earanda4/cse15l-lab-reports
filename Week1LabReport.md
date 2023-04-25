@@ -31,10 +31,10 @@ except the 'jj' will be replaced with the two letters
 
 Running Commands:
 - Try running these commands:
-  - cd ~ 
-  - cd
-  - ls -lat
-  - ls -a
+  - cd ~, it goes back one in the current directory
+  - cd, it changes the current working directory 
+  - ls -lat, used to list files in the directory
+  - ls -a, used to list all files
   - ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
   - cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
   - cat /home/linux/ieng6/cs15lsp23/public/hello.txt
