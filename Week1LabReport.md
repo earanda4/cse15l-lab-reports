@@ -1,16 +1,16 @@
 Looking up your CSE 15L account:
-- You click on this link https://sdacs.ucsd.edu/~icc/index.php
+- You click on this [link](https://sdacs.ucsd.edu/~icc/index.php)
 - You enter your username and your student ID to get your CSE 15L account
 - Then follow the instructions on the screen in order to set your password (make sure it is a strong password)
 
 Downloading Visual Studio Code:
-- Click on this link https://code.visualstudio.com/
+- Click on this [link]( https://code.visualstudio.com/)
 - Download for either Mac or Windows, depending on your system
 - Once it is installed, you will see a screen that looks like this
 ![Image](week1labss1.png)
 
 Remotely Connecting:
-- If you are on Windows, you must install git for Windows: https://gitforwindows.org/
+- If you are on Windows, you must install git for [Windows](https://gitforwindows.org/)
 - Then, go to Visual Studio Code and set git bash as your default terminal
   - In order to do this you must open the terminal using Ctrl + '
  ![Image](week1labss2.png)
