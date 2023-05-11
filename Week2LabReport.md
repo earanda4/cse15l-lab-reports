@@ -30,16 +30,47 @@ at the end of the website handle.
 The result would appear like this: 
 ![Image](Screenshot 2023-05-10 212332.png)
 
+You can also change 'Hello' with any string of text. In this case, 'World':
+![Image](week2labss2.png)
+
+The method being called is:
+'''
+  public void handle(HttpExchange exchange) throws IOException{
+        URI uri = exchange.getRequestURI();
+        String path = uri.getPath();
+        String response = "";
+
+        if(path.equals("/add-message")){
+            String queryString = uri.getQuery();
+            String[] parts = queryString.split("=");
+            if(parts.length == 2 && parts[0].equals("s")){
+                String newMessage = parts[1].replace("+", " ");
+                message += newMessage;
+                response = message;
+            } else {
+                response = "Invalid request!";
+            }
+        }else{
+            response = "404 Not Found!";
+        }
+
+        exchange.sendResponseHeaders(200, response.getBytes().length);
+        exchange.getResponseBody().write(response.getBytes());
+        exchange.close();
+    } 
+'''
+
+
 #Testing
-text
-!
-text 
-!
-text
-!
-# Parrt 2
+
+
+# Part 2
 ## choosing a bug
 
 '''
-code
+
 '''
+
+# Part 3
+
+
