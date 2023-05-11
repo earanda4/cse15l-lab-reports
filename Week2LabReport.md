@@ -28,7 +28,7 @@ You can add "Hello" by typing
 at the end of the website handle. 
 
 The result would appear like this: 
-![Image](week1labss1.png)
+![Image](Screenshot 2023-05-10 212332.png)
 
 #Testing
 text
